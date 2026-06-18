@@ -1,0 +1,2 @@
+{"id":"LOG-DF5D9B0CF0AA","timestamp":"2026-06-18T18:23:12.836959+00:00","customerId":"CUS-5F88F392EAE8","paymentMethodId":"PAY-0F805D321FBF","total":4648.00,"productSkus":["SKU-LAP-001","SKU-MOU-002"],"accepted":true,"authorizationCode":"SIM-157167","rejectionReason":null}
+{"id":"LOG-BB6F79F8E646","timestamp":"2026-06-18T18:24:34.4524764+00:00","customerId":"CUS-5F88F392EAE8","paymentMethodId":"PAY-0F805D321FBF","total":8947.00,"productSkus":["SKU-LAP-001","SKU-MOU-002"],"accepted":false,"authorizationCode":"SIM-959347","rejectionReason":"Orders cannot exceed 5,000 pesos."}

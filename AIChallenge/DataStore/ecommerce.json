@@ -13,9 +13,34 @@
         "state": "Ciudad de M\u00E9xico"
       },
       "createdAt": "2026-06-18T17:45:17.9919841+00:00"
+    },
+    {
+      "id": "CUS-5F88F392EAE8",
+      "fullName": "Test12",
+      "curp": "SARJ930910HDFNZL03",
+      "birthDate": "2004-01-18",
+      "address": {
+        "streetAndNumber": "Test321",
+        "neighborhood": "Hip\u00F3dromo",
+        "postalCode": "06100",
+        "municipality": "Cuauht\u00E9moc",
+        "state": "Ciudad de M\u00E9xico"
+      },
+      "createdAt": "2026-06-18T18:17:30.2310584+00:00"
     }
   ],
-  "paymentMethods": [],
+  "paymentMethods": [
+    {
+      "id": "PAY-0F805D321FBF",
+      "customerId": "CUS-5F88F392EAE8",
+      "maskedCardNumber": "**** **** **** 1111",
+      "cardFingerprint": "9BBEF19476623CA56C17DA75FD57734DBF82530686043A6E491C6D71BEFE8F6E",
+      "cardType": 0,
+      "cardholderName": "Luis Antonio",
+      "expiration": "06/29",
+      "createdAt": "2026-06-18T18:21:09.2045184+00:00"
+    }
+  ],
   "products": [
     {
       "sku": "SKU-LAP-001",
@@ -88,5 +113,48 @@
       "state": "Ciudad de México"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "id": "ORD-4AD6331ED197",
+      "customerId": "CUS-5F88F392EAE8",
+      "date": "2026-06-18T18:23:12.8303145+00:00",
+      "total": 4648.00,
+      "products": [
+        {
+          "sku": "SKU-LAP-001",
+          "productName": "Laptop ultraligera",
+          "unitPrice": 4299.00,
+          "quantity": 1
+        },
+        {
+          "sku": "SKU-MOU-002",
+          "productName": "Mouse inal\u00E1mbrico",
+          "unitPrice": 349.00,
+          "quantity": 1
+        }
+      ],
+      "authorizationCode": "SIM-157167",
+      "status": 0,
+      "statusDetail": {
+        "rejectionReason": null,
+        "deliveryTracking": [
+          "Order accepted",
+          "Preparing shipment"
+        ]
+      }
+    },
+    {
+      "id": "ORD-FD3F7A4A75B6",
+      "customerId": "CUS-5F88F392EAE8",
+      "date": "2026-06-18T18:24:34.4494752+00:00",
+      "total": 8947.00,
+      "products": [],
+      "authorizationCode": "SIM-959347",
+      "status": 1,
+      "statusDetail": {
+        "rejectionReason": "Orders cannot exceed 5,000 pesos.",
+        "deliveryTracking": []
+      }
+    }
+  ]
 }

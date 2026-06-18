@@ -36,8 +36,17 @@ app.UseSwaggerUI(options =>
     options.SwaggerEndpoint("/swagger/v1/swagger.json", "AIChallenge E-commerce API v1");
 });
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
 app.MapControllers();
-app.MapGet("/", () => Results.Redirect("/swagger"));
+app.MapGet("/api-info", () => Results.Ok(new
+{
+    name = "AIChallenge E-commerce API",
+    version = "v1",
+    status = "ok",
+    timestamp = DateTimeOffset.UtcNow
+}));
 
 app.Run();
 

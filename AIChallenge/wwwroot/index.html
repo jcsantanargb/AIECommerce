@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AIChallenge E-commerce | Frontend</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="bg-shape bg-shape-1" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-2" aria-hidden="true"></div>
+
+  <header class="hero">
+    <h1>AIChallenge E-commerce</h1>
+    <p>Cliente web simple para consumir endpoints de clientes, pagos, productos y ordenes.</p>
+
+    <div class="api-config card">
+      <label for="apiBaseUrl">Base URL API</label>
+      <div class="row">
+        <input id="apiBaseUrl" type="url" placeholder="http://localhost:5000" />
+        <button id="saveBaseUrl" type="button">Guardar</button>
+      </div>
+      <small>Si lo dejas vacio, usa el mismo origen de esta pagina.</small>
+    </div>
+  </header>
+
+  <main class="grid">
+    <section class="card">
+      <h2>Registrar cliente</h2>
+      <form id="customerForm">
+        <div class="field"><label>Nombre completo</label><input name="fullName" required></div>
+        <div class="field"><label>CURP</label><input name="curp" maxlength="18" required></div>
+        <div class="field"><label>Fecha de nacimiento</label><input name="birthDate" type="date" required></div>
+
+        <h3>Domicilio</h3>
+        <div class="field"><label>Calle y numero</label><input name="streetAndNumber" required></div>
+        <div class="field"><label>Colonia</label><input name="neighborhood" required></div>
+        <div class="field"><label>C.P.</label><input name="postalCode" required></div>
+        <div class="field"><label>Municipio</label><input name="municipality" required></div>
+        <div class="field"><label>Estado</label><input name="state" required></div>
+
+        <button type="submit">Registrar cliente</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Registrar metodo de pago</h2>
+      <form id="paymentMethodForm">
+        <div class="field"><label>Customer ID</label><input name="customerId" required></div>
+        <div class="field"><label>Numero de tarjeta</label><input name="cardNumber" required></div>
+        <div class="field">
+          <label>Tipo de tarjeta</label>
+          <select name="cardType" required>
+            <option value="0">VISA (0)</option>
+            <option value="1">Mastercard (1)</option>
+            <option value="2">AMEX (2)</option>
+          </select>
+        </div>
+        <div class="field"><label>Nombre del titular</label><input name="cardholderName" required></div>
+        <div class="field"><label>Expiracion (MM/YY)</label><input name="expiration" placeholder="12/30" required></div>
+        <div class="field"><label>CVV</label><input name="cvv" maxlength="4" required></div>
+
+        <button type="submit">Registrar metodo</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Productos</h2>
+      <button id="checkApiBtn" type="button" class="ghost">Verificar API (/api-info)</button>
+      <button id="listProductsBtn" type="button">Listar productos</button>
+    </section>
+
+    <section class="card">
+      <h2>Crear orden</h2>
+      <form id="createOrderForm">
+        <div class="field"><label>Customer ID</label><input name="customerId" required></div>
+        <div class="field"><label>Payment Method ID</label><input name="paymentMethodId" required></div>
+
+        <h3>Productos</h3>
+        <div id="orderItems"></div>
+        <button id="addItemBtn" type="button" class="ghost">Agregar producto</button>
+
+        <button type="submit">Crear orden</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Consultar orden por ID</h2>
+      <form id="getOrderForm">
+        <div class="field"><label>Order ID</label><input name="orderId" required></div>
+        <button type="submit">Consultar orden</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Ordenes por cliente</h2>
+      <form id="customerOrdersForm">
+        <div class="field"><label>Customer ID</label><input name="customerId" required></div>
+        <button type="submit">Consultar ordenes</button>
+      </form>
+    </section>
+  </main>
+
+  <section class="card response-panel">
+    <div class="response-header">
+      <h2>Respuesta API</h2>
+      <button id="clearResponseBtn" type="button" class="ghost">Limpiar</button>
+    </div>
+    <pre id="responseBox">Sin resultados aun.</pre>
+  </section>
+
+  <template id="orderItemTemplate">
+    <div class="order-item">
+      <div class="field"><label>SKU</label><input name="sku" required></div>
+      <div class="field"><label>Cantidad</label><input name="quantity" type="number" min="1" value="1" required></div>
+      <button type="button" class="remove-item ghost">Quitar</button>
+    </div>
+  </template>
+
+  <script src="/app.js"></script>
+</body>
+</html>
