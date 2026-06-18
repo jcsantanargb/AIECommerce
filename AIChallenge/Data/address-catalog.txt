@@ -1,4 +1,922 @@
-06100|Hipódromo|Cuauhtémoc|Ciudad de México
-06700|Roma Norte|Cuauhtémoc|Ciudad de México
-03100|Del Valle Centro|Benito Juárez|Ciudad de México
-11000|Lomas de Chapultepec|Miguel Hidalgo|Ciudad de México
+28000|Colima Centro|Colima|Colima
+28010|Lomas de Circunvalaci�n|Colima|Colima
+28010|Militar Lomas|Colima|Colima
+28014|Jardines de las Lomas|Colima|Colima
+28016|Lomas Vistahermosa|Colima|Colima
+28017|Bugambilias|Colima|Colima
+28017|Colinas de Santa B�rbara|Colima|Colima
+28017|Jardines Vista Hermosa|Colima|Colima
+28017|Las Palmas|Colima|Colima
+28017|Lomas Verdes|Colima|Colima
+28017|Parque Royal|Colima|Colima
+28017|Residencial Santa B�rbara|Colima|Colima
+28017|Lomas del Valle|Colima|Colima
+28017|Residencial Valle Verde|Colima|Colima
+28017|Rinc�n del Colibr�|Colima|Colima
+28017|Bosque de la Cantera|Colima|Colima
+28017|Albaterra Residencial|Colima|Colima
+28017|El Volant�n|Colima|Colima
+28017|Residencial La Primavera|Colima|Colima
+28017|Residencial Romanza|Colima|Colima
+28017|El Roble Residencial|Colima|Colima
+28017|Punta Norte|Colima|Colima
+28017|Residencial Puerta del Sol|Colima|Colima
+28017|Residencial Esmeralda|Colima|Colima
+28017|Villanova|Colima|Colima
+28017|Privada San Rafael|Colima|Colima
+28017|Villas Colinas|Colima|Colima
+28017|Residencial Esmeralda Norte|Colima|Colima
+28017|Residencial Los Olivos|Colima|Colima
+28017|Jardines de La Hacienda|Colima|Colima
+28017|Residencial Real Santa B�rbara|Colima|Colima
+28017|Residencial Victoria|Colima|Colima
+28017|Paseo de la Hacienda|Colima|Colima
+28017|Colinas de Santa Fe|Colima|Colima
+28017|Paseo de la Cantera|Colima|Colima
+28017|Santa Gertrudis|Colima|Colima
+28018|El Diezmo|Colima|Colima
+28018|Hacienda Real|Colima|Colima
+28018|Loredo Residencial|Colima|Colima
+28018|Real Vista Hermosa|Colima|Colima
+28018|Girasoles|Colima|Colima
+28018|Valle Dorado|Colima|Colima
+28018|Puerta Para�so|Colima|Colima
+28018|La Cantera|Colima|Colima
+28018|Las P�rgolas|Colima|Colima
+28018|Residencial Santa Mar�a|Colima|Colima
+28019|El Porvenir|Colima|Colima
+28019|Puerta del Camino Real|Colima|Colima
+28020|La Armon�a|Colima|Colima
+28020|Jardines de Guadalupe|Colima|Colima
+28025|Ni�os H�roes|Colima|Colima
+28025|Villa los Prados|Colima|Colima
+28030|Guadalajarita|Colima|Colima
+28030|Jardines de La Corregidora|Colima|Colima
+28030|Jardines Residenciales|Colima|Colima
+28030|Magisterial|Colima|Colima
+28030|Morelos|Colima|Colima
+28035|Huertas del Sol|Colima|Colima
+28037|Hidalgo|Colima|Colima
+28040|Camino Real|Colima|Colima
+28040|INFONAVIT La Estancia|Colima|Colima
+28040|Las V�boras|Colima|Colima
+28040|Bur�cratas|Colima|Colima
+28043|INFONAVIT Camino Real|Colima|Colima
+28044|FOVISSSTE|Colima|Colima
+28045|Villa San Sebasti�n|Colima|Colima
+28046|Oriental|Colima|Colima
+28047|Lomas de Santa Elena|Colima|Colima
+28047|Villa de los Pinos|Colima|Colima
+28047|Andares del Jazm�n|Colima|Colima
+28047|Camino Real|Colima|Colima
+28047|Francisco I Madero|Colima|Colima
+28047|Jardines de La Estancia|Colima|Colima
+28047|Josefa Ortiz de Dom�nguez|Colima|Colima
+28047|La Virgencita|Colima|Colima
+28047|L�zaro C�rdenas|Colima|Colima
+28047|Luis Donaldo Colosio|Colima|Colima
+28047|Revoluci�n|Colima|Colima
+28047|San Jos� Norte|Colima|Colima
+28047|Rivera del Jazm�n|Colima|Colima
+28047|Real la Floresta|Colima|Colima
+28047|IKAL|Colima|Colima
+28047|Punto Rioja|Colima|Colima
+28047|Santa Elena|Colima|Colima
+28047|Las Am�ricas|Colima|Colima
+28047|Unidad Antorchista|Colima|Colima
+28047|El Mirador de Colima|Colima|Colima
+28047|Diamantes|Colima|Colima
+28047|Margaritas|Colima|Colima
+28048|Cuauht�moc|Colima|Colima
+28048|El Pedregal|Colima|Colima
+28048|Insurgentes|Colima|Colima
+28048|La Estancia|Colima|Colima
+28048|La Guadalupe|Colima|Colima
+28048|Los �ngeles|Colima|Colima
+28048|Moctezuma|Colima|Colima
+28048|Nuevo Para�so|Colima|Colima
+28048|Para�so|Colima|Colima
+28048|San Jos� Sur|Colima|Colima
+28048|San Rafael|Colima|Colima
+28048|Santa Amalia|Colima|Colima
+28048|Vicente Guerrero|Colima|Colima
+28048|Milenio IV|Colima|Colima
+28048|Cardona|Colima|
+28048|Jardines del Sol|Colima|Colima
+28048|Nuevo Milenio|Colima|Colima
+28048|Mirador de La Cumbre|Colima|Colima
+28048|Gustavo V�zquez Montes|Colima|Colima
+28048|Los Jazmines|Colima|Colima
+28048|Mirador de La Cumbre II|Colima|Colima
+28048|Mirador de La Cumbre III|Colima|Colima
+28048|Ignacio Zaragoza|Colima|Colima
+28050|F�tima|Colima|Colima
+28050|Placetas Estadio|Colima|Colima
+28050|Villas del Bosque|Colima|Colima
+28050|Villas Primaveras|Colima|Colima
+28050|Rinc�n del Bosque|Colima|Colima
+28050|Privada San Francisco|Colima|Colima
+28060|El Moralete|Colima|Colima
+28060|Residencial San Pablo|Colima|Colima
+28063|Francisco Villa|Colima|Colima
+28063|Santa Gertrudis|Colima|Colima
+28063|Las Haciendas|Colima|Colima
+28063|Los Volcanes|Colima|Colima
+28063|Rinconada San Pablo|Colima|Colima
+28063|San Carlos|Colima|Colima
+28067|De los Trabajadores|Colima|Colima
+28070|Los Viveros|Colima|Colima
+28070|Del Periodista|Colima|Colima
+28070|Popular|Colima|Colima
+28070|Patios de Ferrocarril|Colima|Colima
+28075|Parque Industrial|Colima|Colima
+28075|Hacienda El Balc�n|Colima|Colima
+28077|Rinconada del Pereyra|Colima|Colima
+28077|Arboledas|Colima|Colima
+28077|Jos� Pimentel Llerenas|Colima|Colima
+28078|Benito Ju�rez|Colima|Colima
+28078|INDECO Albarrada|Colima|Colima
+28078|Jardines de las Fuentes|Colima|Colima
+28078|El Torre�n|Colima|Colima
+28078|Residencial Prados del Sur|Colima|Colima
+28078|El Yaqui|Colima|Colima
+28078|Las Fuentes|Colima|Colima
+28078|La Rivera|Colima|Colima
+28078|Valle Real|Colima|Colima
+28078|Arboledas de La Hacienda|Colima|Colima
+28078|La Albarrada|Colima|Colima
+28078|Real de Don Juan|Colima|Colima
+28078|El Prado|Colima|Colima
+28079|Gregorio Torres Quintero|Colima|Colima
+28079|Puerta del Valle|Colima|Colima
+28079|Villas del Sur|Colima|Colima
+28079|Parajes del Sur|Colima|Colima
+28080|El Tivoli|Colima|Colima
+28085|Juana de Asbaje|Colima|Colima
+28085|Hacienda el Alpuyeque|Colima|
+28085|Los Sauces|Colima|Colima
+28089|Leonardo B Guti�rrez|Colima|Colima
+28089|Quinta El T�voli|Colima|Colima
+28089|Bosques del Sur|Colima|Colima
+28090|El Tecolote|Colima|Colima
+28090|Francisco Zaragoza V�zquez|Colima|Colima
+28090|San Germ�n|Colima|Colima
+28090|La Esperanza|Colima|Colima
+28090|Las Bugambilias|Colima|Colima
+28100|Tecom�n Centro|Tecom�n|Tecom�n
+28110|Tepeyac|Tecom�n|Tecom�n
+28110|Manuel �lvarez|Tecom�n|Tecom�n
+28110|Miguel Hidalgo|Tecom�n|Tecom�n
+28110|Josefa Ortiz de Dom�nguez|Tecom�n|Tecom�n
+28113|Elba Cecilia Vega|Tecom�n|Tecom�n
+28114|Amalia Sol�rzano|Tecom�n|Tecom�n
+28120|Valle las Palmas|Tecom�n|Tecom�n
+28120|Cofrad�a de Ju�rez|Tecom�n|Tecom�n
+28120|Valle Querido|Tecom�n|Tecom�n
+28120|Noriega Pizano|Tecom�n|Tecom�n
+28123|Real del Valle|Tecom�n|Tecom�n
+28123|Real del Bosque|Tecom�n|Tecom�n
+28130|F�tima|Tecom�n|Tecom�n
+28130|Francisco Villa|Tecom�n|Tecom�n
+28130|La Uni�n|Tecom�n|Tecom�n
+28130|Vicente Guerrero|Tecom�n|Tecom�n
+28133|Hacienda la Loma|Tecom�n|Tecom�n
+28133|Loma Bonita|Tecom�n|Tecom�n
+28134|San Ignacio|Tecom�n|Tecom�n
+28134|El Limonero|Tecom�n|Tecom�n
+28134|L�zaro C�rdenas|Tecom�n|Tecom�n
+28134|L�zaro C�rdenas II|Tecom�n|Tecom�n
+28134|Santa Elena|Tecom�n|Tecom�n
+28134|Sor Juana In�s de La Cruz|Tecom�n|Tecom�n
+28134|Griselda �lvarez|Tecom�n|Tecom�n
+28134|�lvaro Obreg�n|Tecom�n|Tecom�n
+28134|Reyes Heroles|Tecom�n|Tecom�n
+28134|Luis Donaldo Colosio|Tecom�n|Tecom�n
+28134|Ni�os H�roes|Tecom�n|Tecom�n
+28134|Las Flores|Tecom�n|Tecom�n
+28134|Palma Real|Tecom�n|Tecom�n
+28140|Jardines del Chamizal|Tecom�n|Tecom�n
+28140|El Chamizal|Tecom�n|Tecom�n
+28140|La Floresta|Tecom�n|Tecom�n
+28140|San Isidro|Tecom�n|Tecom�n
+28140|Villa Florida|Tecom�n|Tecom�n
+28140|INFONAVIT Las Huertas|Tecom�n|Tecom�n
+28140|Jardines de Tecom�n|Tecom�n|Tecom�n
+28143|La Cuarta|Tecom�n|Tecom�n
+28150|Benito Ju�rez|Tecom�n|Tecom�n
+28150|La Palmita|Tecom�n|Tecom�n
+28159|INFONAVIT Las Palmas|Tecom�n|Tecom�n
+28160|Pablo Silva Garc�a|Tecom�n|Tecom�n
+28160|Ponciano Arriaga|Tecom�n|Tecom�n
+28160|Estatuto Jur�dico|Tecom�n|Tecom�n
+28160|Sedena Militar|Tecom�n|Tecom�n
+28170|Parque Las Flores (Elias Zamora Verduzco)|Tecom�n|Tecom�n
+28170|Indeco|Tecom�n|Tecom�n
+28170|Libertad|Tecom�n|Tecom�n
+28180|Bugambilias|Tecom�n|Tecom�n
+28180|La Floresta II|Tecom�n|Tecom�n
+28180|Las Palmas|Tecom�n|Tecom�n
+28180|Primaveras del Real|Tecom�n|Tecom�n
+28180|Villa del Centenario|Tecom�n|Tecom�n
+28180|Villas del Rey|Tecom�n|Tecom�n
+28180|San Miguel|Tecom�n|Tecom�n
+28184|San Carlos|Tecom�n|Tecom�n
+28189|88 Batall�n de Infanter�a|Tecom�n|Tecom�n
+28190|Gustavo D�az Ordaz|Tecom�n|Tecom�n
+28190|San Jos�|Tecom�n|Tecom�n
+28190|Tuxpan|Tecom�n|Tecom�n
+28190|Llanos de San Jos�|Tecom�n|Tecom�n
+28190|Villas del Sol|Tecom�n|Tecom�n
+28200|San Jos� (Sector 3)|Manzanillo|Manzanillo
+28200|La Providencia (Sector 3)|Manzanillo|Manzanillo
+28200|El Vigia (Sector 1)|Manzanillo|Manzanillo
+28200|El Tamarindo (Sector 2)|Manzanillo|Manzanillo
+28200|Calle Nueva ( Sector 3)|Manzanillo|Manzanillo
+28200|Cine Manzanillo (Sector 4)|Manzanillo|Manzanillo
+28200|Manzanillo Centro|Manzanillo|Manzanillo
+28209|Manzanillo (Playa de Oro)|Manzanillo|Manzanillo
+28218|Las Brisas|Manzanillo|Manzanillo
+28218|Morelos|Manzanillo|Manzanillo
+28218|Playa Azul|Manzanillo|Manzanillo
+28218|Fovissste|Manzanillo|
+28218|INFONAVIT Brisas del Mar|Manzanillo|Manzanillo
+28218|Del Mar|Manzanillo|Manzanillo
+28218|Brisas|Manzanillo|Manzanillo
+28218|Vista Roca|Manzanillo|
+28218|Del Pac�fico|Manzanillo|
+28218|Las Garzas|Manzanillo|Manzanillo
+28218|Aerom�xico|Manzanillo|Manzanillo
+28219|Lomas del Valle|Manzanillo|Manzanillo
+28219|Playa Esmeralda|Manzanillo|Manzanillo
+28219|Residencial Villa del Mar|Manzanillo|Manzanillo
+28219|Residencial Las Gaviotas|Manzanillo|Manzanillo
+28219|Los Corales|Manzanillo|Manzanillo
+28219|Los Ciruelos|Manzanillo|Manzanillo
+28219|Rinconada del Valle|Manzanillo|Manzanillo
+28219|Conjunto Primaveras|Manzanillo|Manzanillo
+28219|Valle de las Garzas II|Manzanillo|Manzanillo
+28219|Valle Esmeralda|Manzanillo|Manzanillo
+28219|Valle Dorado|Manzanillo|Manzanillo
+28219|Villa Bonita Residencial|Manzanillo|Manzanillo
+28219|Vi�a del Mar|Manzanillo|Manzanillo
+28219|Ponte Vedra Residencial|Manzanillo|Manzanillo
+28219|Residencial Pel�canos|Manzanillo|Manzanillo
+28219|Villa Florencia|Manzanillo|Manzanillo
+28219|Residencial Las Arekas|Manzanillo|Manzanillo
+28219|Torremolinos|Manzanillo|Manzanillo
+28219|Ibiza|Manzanillo|Manzanillo
+28219|Puerta de Hierro|Manzanillo|Manzanillo
+28219|Real Acuamarina|Manzanillo|Manzanillo
+28219|Palma Real|Manzanillo|Manzanillo
+28219|Nueva Esperanza|Manzanillo|Manzanillo
+28219|Playa Azul|Manzanillo|Manzanillo
+28219|Garzas Gaviotas|Manzanillo|Manzanillo
+28219|23 de Noviembre|Manzanillo|Manzanillo
+28219|Los Pinos|Manzanillo|Manzanillo
+28219|Valle de las Garzas I|Manzanillo|Manzanillo
+28219|Costa Azul|Manzanillo|Manzanillo
+28219|Del Sol|Manzanillo|Manzanillo
+28219|Parque industrial FONDEPORT|Manzanillo|Manzanillo
+28219|FSTSE|Manzanillo|Manzanillo
+28219|Isla Real|Manzanillo|Manzanillo
+28219|La Esperanza|Manzanillo|Manzanillo
+28219|Playa Blanca|Manzanillo|Manzanillo
+28219|Playa de Oro|Manzanillo|Manzanillo
+28219|Playa Real|Manzanillo|Manzanillo
+28219|Soleares|Manzanillo|Manzanillo
+28219|Villa Mar|Manzanillo|Manzanillo
+28219|Barrio 5|Manzanillo|Manzanillo
+28219|Villa Oc�ano|Manzanillo|Manzanillo
+28219|Villa Caracol|Manzanillo|Manzanillo
+28230|Las Joyas|Manzanillo|Manzanillo
+28230|El Roc�o|Manzanillo|Manzanillo
+28230|Ignacio Zaragoza|Manzanillo|Manzanillo
+28236|Manzanillo|Manzanillo|Manzanillo
+28237|Benito Ju�rez|Manzanillo|Manzanillo
+28237|La Gasera|Manzanillo|Manzanillo
+28237|Las Torres|Manzanillo|Manzanillo
+28237|Leandro Valle|Manzanillo|Manzanillo
+28237|Punta Grande|Manzanillo|Manzanillo
+28238|Bellavista|Manzanillo|Manzanillo
+28239|Lomas de Gregorio Figueroa|Manzanillo|Manzanillo
+28239|Loma Alta|Manzanillo|Manzanillo
+28239|Primavera|Manzanillo|Manzanillo
+28239|16 de Septiembre|Manzanillo|Manzanillo
+28239|Tapeixtles|Manzanillo|Manzanillo
+28239|INDECO|Manzanillo|Manzanillo
+28239|La Negrita|Manzanillo|Manzanillo
+28239|San Carlos|Manzanillo|Manzanillo
+28240|Punta Chica|Manzanillo|Manzanillo
+28250|Bur�crata|Manzanillo|Manzanillo
+28259|San Pedrito (Sector 7)|Manzanillo|Manzanillo
+28259|Sector 8|Manzanillo|Manzanillo
+28259|Banrural (Sector 9)|Manzanillo|Manzanillo
+28259|La Parota (Sector 7)|Manzanillo|Manzanillo
+28259|San Pedrito|Manzanillo|Manzanillo
+28260|La Playita de en Medio|Manzanillo|Manzanillo
+28260|La Pe�ita (Sector 6)|Manzanillo|Manzanillo
+28260|Libertad|Manzanillo|Manzanillo
+28269|Sector 5|Manzanillo|Manzanillo
+28269|Constituci�n|Manzanillo|Manzanillo
+28269|Cuauht�moc|Manzanillo|Manzanillo
+28269|Alameda|Manzanillo|Manzanillo
+28270|Padre Hidalgo|Manzanillo|Manzanillo
+28278|La Pedregoza|Manzanillo|Manzanillo
+28279|El Chamizal|Manzanillo|Manzanillo
+28279|Bonanza|Manzanillo|Manzanillo
+28300|Armer�a Centro|Armer�a|Ciudad de Armer�a
+28304|Cristo Rey|Armer�a|Ciudad de Armer�a
+28304|L�zaro C�rdenas|Armer�a|Ciudad de Armer�a
+28304|Lindavista|Armer�a|Ciudad de Armer�a
+28305|Ejido|Armer�a|Ciudad de Armer�a
+28306|Primaveras|Armer�a|Ciudad de Armer�a
+28306|Ferrocarril|Armer�a|Ciudad de Armer�a
+28306|Emiliano Zapata|Armer�a|Ciudad de Armer�a
+28306|Independencia|Armer�a|Ciudad de Armer�a
+28306|Sagrado Coraz�n|Armer�a|Ciudad de Armer�a
+28307|Hacienda las Primaveras|Armer�a|Ciudad de Armer�a
+28307|El Campanario|Armer�a|Ciudad de Armer�a
+28307|El Pelillo|Armer�a|Ciudad de Armer�a
+28307|Gregorio Torres Quintero|Armer�a|Ciudad de Armer�a
+28307|El Arenal|Armer�a|Ciudad de Armer�a
+28307|Valle del Sol|Armer�a|Ciudad de Armer�a
+28310|La Palmera|Armer�a|
+28310|La Laguna|Armer�a|
+28310|Rinc�n de L�pez Centro|Armer�a|
+28313|El Banco de Jicot�n|Armer�a|
+28315|El Puertecito|Armer�a|
+28317|Augusto G�mez Villanueva (Coalatilla)|Armer�a|
+28320|Cofrad�a de Ju�rez|Armer�a|
+28330|Periquillo|Armer�a|
+28330|Flor de Coco|Armer�a|
+28340|Los Reyes (Zorrillos)|Armer�a|
+28350|Cuyutl�n|Armer�a|
+28350|El Para�so [Balneario]|Armer�a|
+28400|Valle de las Huertas|Coquimatl�n|
+28400|Santa Rita|Coquimatl�n|
+28400|Coquimatl�n|Coquimatl�n|
+28400|Camichines|Coquimatl�n|
+28400|Cazumba|Coquimatl�n|
+28400|Emiliano Zapata|Coquimatl�n|
+28400|El�as Zamora Verduzco|Coquimatl�n|
+28400|Jardines del Llano|Coquimatl�n|
+28400|Las Higueras|Coquimatl�n|
+28400|San Miguel|Coquimatl�n|
+28400|Las Moras|Coquimatl�n|
+28402|El Poblado|Coquimatl�n|
+28403|Hacienda Buenos Aires|Coquimatl�n|
+28403|Los Limones|Coquimatl�n|
+28405|El Chical|Coquimatl�n|
+28410|Agua Zarca|Coquimatl�n|
+28410|Ju�rez (La Magdalena)|Coquimatl�n|
+28413|Cruz de Piedra|Coquimatl�n|
+28414|La Sidra|Coquimatl�n|
+28414|El Algodonal|Coquimatl�n|
+28420|La Esperanza|Coquimatl�n|
+28424|El Alcom�n (Luis Echeverr�a �lvarez)|Coquimatl�n|
+28424|Jala|Coquimatl�n|
+28450|Ex-Hacienda de Nogueras Residencial|Comala|
+28450|Real de Comala|Comala|
+28450|Comala|Comala|
+28450|Nogueras|Comala|
+28450|Los Llanitos|Comala|
+28450|Cuauht�moc|Comala|
+28450|L�zaro C�rdenas|Comala|
+28450|Los Aguajes|Comala|
+28450|Francisco Ram�rez Villarreal|Comala|
+28450|Celsa Virgen|Comala|
+28450|Santa Cecilia|Comala|
+28450|La Trinidad|Comala|
+28450|Miguel de La Madrid Hurtado|Comala|
+28450|Lomas de Comala|Comala|
+28450|Campo Verde|Comala|
+28450|Solidaridad Aguajitos|Comala|
+28450|Real Nogueras|Comala|
+28450|Lomas del Pedregal|Comala|
+28450|Lomas Altas|Comala|
+28450|Real de Mendoza|Comala|
+28450|Barrio Alto|Comala|
+28450|Campestre Comala|Comala|
+28452|La Caja|Comala|
+28454|Zacualpan|Comala|
+28455|Campo Cuatro|Comala|
+28456|Lagunitas|Comala|
+28459|Suchitl�n|Comala|
+28459|La Ca�ada|Comala|
+28460|Cofrad�a de Suchitl�n|Comala|
+28460|Agosto|Comala|
+28460|La Nogalera|Comala|
+28461|El Remate|Comala|
+28464|Mahakua (Hacienda San Antonio)|Comala|
+28464|La Becerrera|Comala|
+28464|La Mar�a|Comala|
+28464|La Yerbabuena|Comala|
+28466|Los Colomos|Comala|
+28466|Colomitos|Comala|
+28466|El Remudadero|Comala|
+28500|Cuauht�moc|Cuauht�moc|
+28500|El Toreo|Cuauht�moc|
+28504|Lomas Santa Cruz|Cuauht�moc|
+28504|La Escaramuza|Cuauht�moc|
+28504|Ricardo Flores Mag�n|Cuauht�moc|
+28504|La Mojonera|Cuauht�moc|
+28504|Griselda �lvarez Ponce de Le�n|Cuauht�moc|
+28504|La Presa|Cuauht�moc|
+28504|Los Monos|Cuauht�moc|
+28504|San Rafael|Cuauht�moc|
+28504|Campestre San Jer�nimo|Cuauht�moc|
+28504|La Cayetana|Cuauht�moc|
+28504|La Escondida|Cuauht�moc|
+28506|Emiliano Zapata|Cuauht�moc|
+28506|San Jer�nimo|Cuauht�moc|
+28507|Valle Real|Cuauht�moc|
+28507|Las Higueras|Cuauht�moc|
+28510|El Arenal|Cuauht�moc|
+28510|Santa Mariana|Cuauht�moc|
+28510|M�xico|Cuauht�moc|
+28510|Queser�a|Cuauht�moc|
+28510|Concepci�n Barbosa|Cuauht�moc|
+28510|La Cruz|Cuauht�moc|
+28510|Arsenio Farell Cubillas|Cuauht�moc|
+28510|Solidaridad|Cuauht�moc|
+28510|La Ermita|Cuauht�moc|
+28514|Montitl�n|Cuauht�moc|
+28520|Alcaraces|Cuauht�moc|
+28521|Palmillas|Cuauht�moc|
+28521|El Barro|Cuauht�moc|
+28523|Cerro Colorado|Cuauht�moc|
+28530|Altozano|Cuauht�moc|
+28530|Los Pinos|Cuauht�moc|
+28530|Chiapa|Cuauht�moc|
+28530|Ocotillo|Cuauht�moc|
+28550|El Campanario|Cuauht�moc|
+28550|Lagunilla|Cuauht�moc|
+28550|El Trapiche|Cuauht�moc|
+28550|San Joaqu�n|Cuauht�moc|
+28550|La Palma|Cuauht�moc|
+28553|El C�bano|Cuauht�moc|
+28553|El Pari�n|Cuauht�moc|
+28557|ISENCO|Cuauht�moc|
+28590|Buenavista|Cuauht�moc|
+28597|Alzada|Cuauht�moc|
+28597|Baj�o de la Leona|Cuauht�moc|
+28599|Colima (Licenciado Miguel de la Madrid Hurtado)|Cuauht�moc|
+28600|Estapilla|Colima|
+28600|Piscila|Colima|
+28600|Puerta de �nzar|Colima|
+28600|Los Tepames|Colima|
+28600|Ticuizit�n|Colima|
+28600|Tinajas|Colima|
+28600|La Higuerita|Colima|
+28600|El Amarradero|Colima|
+28610|San �ngel Residencial|Colima|
+28610|El Chanal|Colima|
+28613|La Capacha|Colima|
+28620|Lo de Villa|Colima|
+28620|Ejidal|Colima|
+28620|J Jes�s R�os|Colima|
+28626|El Alpuyequito|Colima|
+28626|Loma de F�tima|Colima|
+28627|Loma de Ju�rez (El Mezquite)|Colima|
+28628|Los Mezcales|Colima|
+28629|Las Golondrinas|Colima|
+28634|El Bordo|Colima|
+28634|Corralitos|Colima|
+28634|El Astillero de Abajo|Colima|
+28634|El Astillero de Arriba|Colima|
+28634|Trapichillos|Colima|
+28634|La Media Luna|Colima|
+28635|Paso del Zarco|Colima|
+28635|La Loma de Ignacio Allende|Colima|
+28640|Nuevo|Colima|
+28640|Los Asmoles|Colima|
+28645|Acatit�n|Colima|
+28646|Las Gu�simas (Las Borregas)|Colima|
+28647|Los Ortices|Colima|
+28656|Las Tunas|Colima|
+28700|Los Gobernadores|Ixtlahuac�n|
+28700|Carlos de la Madrid Virgen|Ixtlahuac�n|
+28700|Daniel Contreras Lara|Ixtlahuac�n|
+28700|Ixtlahuac�n|Ixtlahuac�n|
+28700|Mojotal|Ixtlahuac�n|
+28700|11 Pueblos|Ixtlahuac�n|
+28700|6 de Enero|Ixtlahuac�n|
+28703|Jiliotupa|Ixtlahuac�n|
+28704|Las Trancas|Ixtlahuac�n|
+28705|La Presa (Barranca del Rebozo)|Ixtlahuac�n|
+28705|L�zaro C�rdenas|Ixtlahuac�n|
+28720|Aquiles Serd�n (Tamala)|Ixtlahuac�n|
+28724|San Gabriel|Ixtlahuac�n|
+28730|Zinacamitl�n (Los Chicos)|Ixtlahuac�n|
+28730|Chamila|Ixtlahuac�n|
+28730|La Tunita|Ixtlahuac�n|
+28734|Agua de la Virgen|Ixtlahuac�n|
+28734|El Camich�n (Veintis�is de Julio)|Ixtlahuac�n|
+28734|La Tepamera|Ixtlahuac�n|
+28734|Las Anonas|Ixtlahuac�n|
+28735|Las Conchas|Ixtlahuac�n|
+28735|El Capire|Ixtlahuac�n|
+28735|El Galaje|Ixtlahuac�n|
+28735|Higueras de Santa Rosa|Ixtlahuac�n|
+28736|Santa In�s|Ixtlahuac�n|
+28750|27 de Octubre|Minatitl�n|
+28750|Los Mangos|Minatitl�n|
+28750|Minatitl�n|Minatitl�n|
+28750|Palo Verde|Minatitl�n|
+28750|Carlos de La Madrid Vejar|Minatitl�n|
+28750|INFONAVIT|Minatitl�n|
+28750|Progreso|Minatitl�n|
+28760|Agua Salada|Minatitl�n|
+28760|La Loma|Minatitl�n|
+28764|Las Pesadas|Minatitl�n|
+28765|Benito Ju�rez de Pe�a Colorada (El Poblado)|Minatitl�n|
+28765|El Platanar|Minatitl�n|
+28765|Pe�a Colorada (Fierro)|Minatitl�n|
+28766|La Playa (La Playita)|Minatitl�n|
+28767|Paticajo|Minatitl�n|
+28770|El Sauz|Minatitl�n|
+28772|El Terrero|Minatitl�n|
+28773|San Antonio|Minatitl�n|
+28774|Ranchitos|Minatitl�n|
+28780|El Arrayanal|Minatitl�n|
+28784|Potrero Grande|Minatitl�n|
+28784|Las Gu�simas|Minatitl�n|
+28784|El Nogal|Minatitl�n|
+28784|Agua Fr�a|Minatitl�n|
+28800|Residencial el Colomo|Manzanillo|
+28800|Zona Centro El Colomo|Manzanillo|
+28800|Las Juntas (La Flore�a)|Manzanillo|
+28800|Arturo Noriega Pizano|Manzanillo|
+28800|5 de Mayo|Manzanillo|
+28800|El Garcero|Manzanillo|
+28800|El Libramiento|Manzanillo|
+28800|El Para�so|Manzanillo|
+28800|La Cima del Progreso|Manzanillo|
+28800|La Lupita|Manzanillo|
+28800|L�zaro C�rdenas|Manzanillo|
+28800|L�pez Mateos|Manzanillo|
+28800|Mar�a Luisa Campero|Manzanillo|
+28800|Marina Nacional|Manzanillo|
+28800|Miguel de La Madrid|Manzanillo|
+28800|San Francisco|Manzanillo|
+28800|20 de Noviembre|Manzanillo|
+28800|La Calma|Manzanillo|
+28800|La Playita|Manzanillo|
+28807|Licenciado Luis Echeverr�a �lvarez|Manzanillo|
+28808|Villa Florida|Manzanillo|
+28808|Aquarium|Manzanillo|
+28809|Campos|Manzanillo|
+28810|Los Cedros|Manzanillo|
+28810|Lomas de �vila Camacho|Manzanillo|
+28812|El Huizcolote|Manzanillo|
+28813|Llano de la Marina|Manzanillo|
+28813|Ciruelito de la Marina|Manzanillo|
+28814|Camich�n|Manzanillo|
+28815|Puertecito de Lajas|Manzanillo|
+28815|Canoas|Manzanillo|
+28820|Veladero de los Otates|Manzanillo|
+28820|Aserradero de la Lima|Manzanillo|
+28826|Don Tom�s|Manzanillo|
+28830|El Chavar�n|Manzanillo|
+28833|El Charco|Manzanillo|
+28834|R�o Marabasco|Manzanillo|
+28836|Emiliano Zapata|Manzanillo|
+28838|El Centinela de Arriba|Manzanillo|
+28838|Isla Navidad|Manzanillo|
+28838|La Culebra (Colimilla)|Manzanillo|
+28840|Chandiablo|Manzanillo|
+28850|Camotl�n de Miraflores|Manzanillo|
+28855|La Rosa de San Jos� de L�mber|Manzanillo|
+28855|San Jos� de L�mber (Piedra Redonda)|Manzanillo|
+28855|Veladero de Camotl�n|Manzanillo|
+28860|La Querencia|Manzanillo|Manzanillo
+28860|R�o Colorado|Manzanillo|Manzanillo
+28860|Santiago|Manzanillo|Manzanillo
+28860|Olas Altas|Manzanillo|Manzanillo
+28863|Bah�a Azul|Manzanillo|Manzanillo
+28863|Pipila|Manzanillo|Manzanillo
+28863|Abelardo L Rodr�guez|Manzanillo|Manzanillo
+28863|Colinas de Santiago|Manzanillo|Manzanillo
+28863|El Cerrito|Manzanillo|Manzanillo
+28863|Francisco Villa|Manzanillo|Manzanillo
+28863|El Jabal�|Manzanillo|Manzanillo
+28863|La Cruz|Manzanillo|Manzanillo
+28863|Las Flores|Manzanillo|Manzanillo
+28863|Obradores|Manzanillo|Manzanillo
+28863|Perla de Occidente|Manzanillo|Manzanillo
+28863|Porfirio Gayt�n|Manzanillo|Manzanillo
+28863|San Isidro Labrador|Manzanillo|Manzanillo
+28863|San Mart�n|Manzanillo|Manzanillo
+28863|Barrio Nuevo|Manzanillo|Manzanillo
+28863|Pedro N��ez|Manzanillo|Manzanillo
+28863|Vista del Mar|Manzanillo|Manzanillo
+28864|Almendros Residencial II|Manzanillo|Manzanillo
+28864|Cantamar|Manzanillo|Manzanillo
+28864|Villas del Pac�fico|Manzanillo|Manzanillo
+28864|Paseo del Mar|Manzanillo|Manzanillo
+28864|Santa Carolina|Manzanillo|Manzanillo
+28864|Las Camelinas|Manzanillo|Manzanillo
+28864|Jardines de Salagua|Manzanillo|Manzanillo
+28864|Sol del Pac�fico|Manzanillo|Manzanillo
+28864|Hacienda Santa Clara|Manzanillo|Manzanillo
+28864|Natura Pac�fico|Manzanillo|Manzanillo
+28864|Deportiva|Manzanillo|Manzanillo
+28864|Hermosa Provincia|Manzanillo|Manzanillo
+28864|Loma del Mar|Manzanillo|Manzanillo
+28864|Lomas Verdes|Manzanillo|Manzanillo
+28864|Montebello|Manzanillo|Manzanillo
+28864|Obrera|Manzanillo|Manzanillo
+28864|Valle Dorado|Manzanillo|Manzanillo
+28864|Viveros Pelayo|Manzanillo|Manzanillo
+28864|Jardines de Santiago|Manzanillo|Manzanillo
+28864|Las Huertas|Manzanillo|Manzanillo
+28864|Valle Alto|Manzanillo|Manzanillo
+28864|Valle del Coral|Manzanillo|Manzanillo
+28864|Lomas de Santiago|Manzanillo|Manzanillo
+28864|La Joya I|Manzanillo|Manzanillo
+28864|La Joya II|Manzanillo|Manzanillo
+28864|Country Club|Manzanillo|Manzanillo
+28864|Azul Marino Residencial|Manzanillo|Manzanillo
+28864|Del Mar|Manzanillo|Manzanillo
+28865|Terraplena|Manzanillo|Manzanillo
+28865|Monte Orqu�dea|Manzanillo|Manzanillo
+28865|Residencial San Miguel|Manzanillo|Manzanillo
+28865|Senderos|Manzanillo|Manzanillo
+28865|Miravalle|Manzanillo|Manzanillo
+28865|Lomas del Carmen|Manzanillo|Manzanillo
+28865|La Floresta|Manzanillo|Manzanillo
+28865|Jardines del Valle|Manzanillo|Manzanillo
+28865|CERESO Manzanillo|Manzanillo|
+28865|Nuevo el Petatero|Manzanillo|
+28865|Valle Para�so|Manzanillo|Manzanillo
+28865|Orqu�deas Residencial|Manzanillo|Manzanillo
+28865|Los Altos|Manzanillo|Manzanillo
+28866|Residencial La Ceiba|Manzanillo|Manzanillo
+28866|Residencial Las Higueras|Manzanillo|Manzanillo
+28867|Las Hadas|Manzanillo|Manzanillo
+28867|Salagua|Manzanillo|Manzanillo
+28867|La Punta|Manzanillo|Manzanillo
+28867|Pen�nsula de Santiago|Manzanillo|Manzanillo
+28867|Villas del Faro|Manzanillo|Manzanillo
+28867|Villas del Palmar|Manzanillo|Manzanillo
+28868|Real de Santiago|Manzanillo|Manzanillo
+28868|Real del Country|Manzanillo|Manzanillo
+28868|Maravillas del Campo|Manzanillo|Manzanillo
+28868|Esperanza de Miramar|Manzanillo|Manzanillo
+28868|El Naranjo|Manzanillo|Manzanillo
+28868|Ejidal Miramar|Manzanillo|Manzanillo
+28868|Club Santiago|Manzanillo|Manzanillo
+28868|La Joya|Manzanillo|Manzanillo
+28868|Nuevo Miramar|Manzanillo|Manzanillo
+28868|La Central|Manzanillo|Manzanillo
+28868|Club Maeva|Manzanillo|Manzanillo
+28869|Rosa Morada|Manzanillo|Manzanillo
+28869|Valle Salagua|Manzanillo|Manzanillo
+28869|Aguazul|Manzanillo|Manzanillo
+28869|Santa Sof�a|Manzanillo|Manzanillo
+28869|Cantalegre|Manzanillo|Manzanillo
+28869|Agua Marina Residencial|Manzanillo|Manzanillo
+28869|La Escondida Residencial|Manzanillo|Manzanillo
+28869|Villa Coral|Manzanillo|Manzanillo
+28869|El Dorado|Manzanillo|Manzanillo
+28869|Vidaire|Manzanillo|Manzanillo
+28869|Belona Residencial|Manzanillo|Manzanillo
+28869|Mar de Plata|Manzanillo|Manzanillo
+28869|�rbol de Agua|Manzanillo|Manzanillo
+28869|Delfines|Manzanillo|Manzanillo
+28869|Villas Marbella|Manzanillo|Manzanillo
+28869|L�zaro C�rdenas|Manzanillo|Manzanillo
+28869|Arboledas|Manzanillo|Manzanillo
+28869|Las Perlas|Manzanillo|Manzanillo
+28869|Las Ceibas Residencial|Manzanillo|Manzanillo
+28869|Las Parotas Residencial|Manzanillo|Manzanillo
+28869|Puerta Dorada|Manzanillo|Manzanillo
+28869|Punta Arena|Manzanillo|Manzanillo
+28869|Almendros Residencial III|Manzanillo|Manzanillo
+28869|Salagua Centro|Manzanillo|Manzanillo
+28869|Barrio Nuevo Salagua|Manzanillo|Manzanillo
+28869|Las Palmas|Manzanillo|Manzanillo
+28869|Guadalupe Victoria|Manzanillo|Manzanillo
+28869|L�pez de Legaspi|Manzanillo|Manzanillo
+28869|Arboledas|Manzanillo|Manzanillo
+28869|Obispo Sergio M�ndez Arceo|Manzanillo|Manzanillo
+28869|Villa Flamencos|Manzanillo|Manzanillo
+28869|Puerta del Sol|Manzanillo|Manzanillo
+28869|El Campanario|Manzanillo|Manzanillo
+28869|El�as Zamora Verduzco|Manzanillo|Manzanillo
+28869|Los Mangos|Manzanillo|Manzanillo
+28869|Nuevo Salagua|Manzanillo|Manzanillo
+28869|Almendros Residencial|Manzanillo|Manzanillo
+28869|Paraiso Salagua|Manzanillo|Manzanillo
+28869|Marimar|Manzanillo|Manzanillo
+28870|Jalipa|Manzanillo|
+28870|Francisco Villa|Manzanillo|
+28872|Punta de Agua de Camotl�n|Manzanillo|
+28880|San Buenaventura|Manzanillo|
+28880|Santa Rita|Manzanillo|
+28880|Venustiano Carranza (Cualata)|Manzanillo|
+28880|Nuevo Cuyutl�n|Manzanillo|
+28885|El Salto|Manzanillo|
+28886|Agua Blanca|Manzanillo|
+28900|Tecolapa|Tecom�n|
+28900|Progreso|Tecom�n|
+28900|El Bordo|Tecom�n|
+28900|El Rocio|Tecom�n|
+28900|Mart�n del Campo|Tecom�n|
+28900|Lindavista|Tecom�n|
+28900|Arturo Noriega Pizano|Tecom�n|
+28900|San Antonio|Tecom�n|
+28900|Cerro de Ortega|Tecom�n|
+28900|Hermanos Lea�os|Tecom�n|
+28910|Madrid Centro|Tecom�n|
+28910|Articulo 27 Constitucional|Tecom�n|
+28910|Conacar PRI|Tecom�n|
+28910|La Pedregal|Tecom�n|
+28915|El Rosario|Tecom�n|
+28920|Tecolapa|Tecom�n|
+28923|La Salada|Tecom�n|
+28929|Cofrad�a de Hidalgo (Laguna de Alcuzahue)|Tecom�n|
+28930|Caleras|Tecom�n|
+28930|Puerta de Caleras|Tecom�n|
+28934|La Estaci�n|Tecom�n|
+28934|Leonardo Jaramillo|Tecom�n|
+28934|Ruiz Cortines|Tecom�n|
+28934|San Mart�n de Porres|Tecom�n|
+28934|El Olivo|Tecom�n|
+28934|Bayardo|Tecom�n|
+28934|Luis Rodr�guez Alcal� [La B�scula]|Tecom�n|
+28934|Antonio Salazar Salazar|Tecom�n|
+28934|Mar�a Esther Zuno de Echeverr�a|Tecom�n|
+28935|Cofrad�a de Morelos|Tecom�n|
+28936|San Francisco|Tecom�n|
+28936|Ladislao Moreno|Tecom�n|
+28937|Boca de Pascuales|Tecom�n|
+28937|El Real|Tecom�n|
+28938|Tecuanillo|Tecom�n|
+28940|Callejones|Tecom�n|
+28944|El Saucito|Tecom�n|
+28944|La Primavera|Tecom�n|
+28945|Chanchopa|Tecom�n|
+28947|San Miguel del Ojo de Agua|Tecom�n|
+28950|Juluapan|Villa de �lvarez|
+28950|Los Picachos|Villa de �lvarez|
+28955|Agua Dulce|Villa de �lvarez|
+28958|El Mixcuate|Villa de �lvarez|
+28959|Pueblo Nuevo|Villa de �lvarez|
+28960|El Carrizal|Villa de �lvarez|
+28963|Pastores|Villa de �lvarez|
+28964|Residencial Campestre Buenos Aires|Villa de �lvarez|
+28965|Las Joyitas|Villa de �lvarez|
+28965|El Chivato (Providencia)|Villa de �lvarez|
+28965|La Montrica|Villa de �lvarez|
+28968|El Nuevo Naranjal|Villa de �lvarez|
+28968|El Naranjal|Villa de �lvarez|
+28970|Villa de �lvarez Centro|Villa de �lvarez|Ciudad de Villa de �lvarez
+28970|Villas del Sol|Villa de �lvarez|Ciudad de Villa de �lvarez
+28973|Floresta|Villa de �lvarez|Ciudad de Villa de �lvarez
+28973|Manuel M. Di�guez|Villa de �lvarez|Ciudad de Villa de �lvarez
+28973|Real los Arcos|Villa de �lvarez|Ciudad de Villa de �lvarez
+28973|Santa Teresa|Villa de �lvarez|Ciudad de Villa de �lvarez
+28973|Villas del R�o|Villa de �lvarez|Ciudad de Villa de �lvarez
+28973|Villas Adriana|Villa de �lvarez|Ciudad de Villa de �lvarez
+28973|Villas de Mayo|Villa de �lvarez|Ciudad de Villa de �lvarez
+28973|Santa Cristina|Villa de �lvarez|Ciudad de Villa de �lvarez
+28973|Privada Villa San Agust�n|Villa de �lvarez|Ciudad de Villa de �lvarez
+28973|Rancho Santo|Villa de �lvarez|Ciudad de Villa de �lvarez
+28974|Las Palomas Residencial|Villa de �lvarez|Ciudad de Villa de �lvarez
+28974|San Isidro|Villa de �lvarez|Ciudad de Villa de �lvarez
+28974|Villas Coliman|Villa de �lvarez|Ciudad de Villa de �lvarez
+28975|L�pez Mateos|Villa de �lvarez|Ciudad de Villa de �lvarez
+28975|Santa Martha|Villa de �lvarez|Ciudad de Villa de �lvarez
+28975|Morelos|Villa de �lvarez|Ciudad de Villa de �lvarez
+28975|Villa Carlo|Villa de �lvarez|Ciudad de Villa de �lvarez
+28975|La Frontera|Villa de �lvarez|Ciudad de Villa de �lvarez
+28975|La Cajita del Agua|Villa de �lvarez|Ciudad de Villa de �lvarez
+28975|Privada Villas del Palmar|Villa de �lvarez|Ciudad de Villa de �lvarez
+28976|Liberaci�n|Villa de �lvarez|Ciudad de Villa de �lvarez
+28976|Villas del Centro|Villa de �lvarez|Ciudad de Villa de �lvarez
+28976|Francisco Hern�ndez|Villa de �lvarez|Ciudad de Villa de �lvarez
+28976|Rosario Ibarra de Piedra|Villa de �lvarez|Ciudad de Villa de �lvarez
+28977|Las Parotas|Villa de �lvarez|Ciudad de Villa de �lvarez
+28978|Residencial Bosque Real|Villa de �lvarez|Ciudad de Villa de �lvarez
+28978|Real de Can�|Villa de �lvarez|Ciudad de Villa de �lvarez
+28978|Colinas del Real|Villa de �lvarez|Ciudad de Villa de �lvarez
+28978|Arboledas del Carmen|Villa de �lvarez|Ciudad de Villa de �lvarez
+28978|Azaleas|Villa de �lvarez|Ciudad de Villa de �lvarez
+28978|Colinas del Carmen|Villa de �lvarez|Ciudad de Villa de �lvarez
+28978|FOVISSSTE|Villa de �lvarez|Ciudad de Villa de �lvarez
+28978|Golondrinas|Villa de �lvarez|Ciudad de Villa de �lvarez
+28978|Jardines de Bugambilias|Villa de �lvarez|Ciudad de Villa de �lvarez
+28978|Primaveras|Villa de �lvarez|Ciudad de Villa de �lvarez
+28978|Rinconada de La Hacienda|Villa de �lvarez|Ciudad de Villa de �lvarez
+28978|Senderos del Carmen|Villa de �lvarez|Ciudad de Villa de �lvarez
+28978|Real Hacienda|Villa de �lvarez|Ciudad de Villa de �lvarez
+28978|Real Santa Fe|Villa de �lvarez|Ciudad de Villa de �lvarez
+28978|Hacienda del Carmen|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Colinas de las Lagunas|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Alfredo V. Bonfil|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Las �guilas|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Lindavista|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Lomas de las Flores|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Loma Hermosa|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Lomas de La Higuera|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Los Almendros|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Solidaridad|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Villa Izcalli Caxitl�n|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Villas de Bugambilias|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Real Bugambilias|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Carlos de La Madrid|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Lomas Altas|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Villas del Ca�averal|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|El �ngel|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Cruz de Comala|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Lomas de La Villa|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Vista Bugambilias|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Bugambilias|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Las Colinas|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Las Lagunas|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Lomas de La Herradura|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Residencial Colinas del Rey|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Salom�n Preciado|Villa de �lvarez|Ciudad de Villa de �lvarez
+28979|Colinas del Sol|Villa de �lvarez|Ciudad de Villa de �lvarez
+28980|La Gloria|Villa de �lvarez|Ciudad de Villa de �lvarez
+28982|Villas San Jos� Segunda Secci�n|Villa de �lvarez|Ciudad de Villa de �lvarez
+28982|Villas de Alameda|Villa de �lvarez|Ciudad de Villa de �lvarez
+28982|La Joya|Villa de �lvarez|Ciudad de Villa de �lvarez
+28982|El Cortijo|Villa de �lvarez|Ciudad de Villa de �lvarez
+28982|Santa Fe|Villa de �lvarez|Ciudad de Villa de �lvarez
+28982|Los Olivos|Villa de �lvarez|Ciudad de Villa de �lvarez
+28982|Jacarandas|Villa de �lvarez|Ciudad de Villa de �lvarez
+28982|Hacienda El Nogal|Villa de �lvarez|Ciudad de Villa de �lvarez
+28982|Hacienda del Cortijo|Villa de �lvarez|Ciudad de Villa de �lvarez
+28982|Las Rosas|Villa de �lvarez|Ciudad de Villa de �lvarez
+28983|Valle del Sol|Villa de �lvarez|Ciudad de Villa de �lvarez
+28983|Puerta Higueras|Villa de �lvarez|Ciudad de Villa de �lvarez
+28983|Las Presas|Villa de �lvarez|Ciudad de Villa de �lvarez
+28983|Rinconada del Centenario|Villa de �lvarez|Ciudad de Villa de �lvarez
+28983|Jardines del Centenario|Villa de �lvarez|Ciudad de Villa de �lvarez
+28983|Alfonso Rol�n Michel|Villa de �lvarez|Ciudad de Villa de �lvarez
+28983|Tabachines|Villa de �lvarez|Ciudad de Villa de �lvarez
+28983|Senderos de Rancho Blanco|Villa de �lvarez|Ciudad de Villa de �lvarez
+28983|Villa Flores|Villa de �lvarez|Ciudad de Villa de �lvarez
+28983|Villas Rancho Blanco|Villa de �lvarez|Ciudad de Villa de �lvarez
+28983|El Haya|Villa de �lvarez|Ciudad de Villa de �lvarez
+28983|Puerta de Rol�n|Villa de �lvarez|Ciudad de Villa de �lvarez
+28983|Residencial Tulipanes|Villa de �lvarez|Ciudad de Villa de �lvarez
+28983|Villa Flores II|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Patria Residencial|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Palo Alto|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Villafuentes|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Punta Diamante Residencial|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Residencial Los Robles|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Vista Volcanes|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|La Fortuna|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Real del Seis|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|La Esperanza|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Real del Siete|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Benito Ju�rez|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Azteca|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|El Centenario|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Juan Jos� R�os|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Loma Bonita|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Lomas del Centenario|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Manuel �lvarez|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Ram�n Serrano|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Real Centenario|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Villas de San Jos�|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Jardines de La Villa|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Puerta de Hierro|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Los Tri�ngulos|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Puerta del Centenario|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Centenario II|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|La Reserva|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Buenavista|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Verde Valle|Villa de �lvarez|Ciudad de Villa de �lvarez
+28984|Higueras del Espinal|Villa de �lvarez|Ciudad de Villa de �lvarez
+28985|Del Valle|Villa de �lvarez|Ciudad de Villa de �lvarez
+28985|Villa de Oro|Villa de �lvarez|Ciudad de Villa de �lvarez
+28985|San Miguel|Villa de �lvarez|Ciudad de Villa de �lvarez
+28986|Residencial Santa Sof�a|Villa de �lvarez|Ciudad de Villa de �lvarez
+28986|Emiliano Zapata|Villa de �lvarez|Ciudad de Villa de �lvarez
+28986|Villas Diamante|Villa de �lvarez|Ciudad de Villa de �lvarez
+28987|Alta Villa|Villa de �lvarez|Ciudad de Villa de �lvarez
+28987|La Haciendita|Villa de �lvarez|Ciudad de Villa de �lvarez
+28987|San Carlos|Villa de �lvarez|Ciudad de Villa de �lvarez
+28987|Villas Providencia|Villa de �lvarez|Ciudad de Villa de �lvarez
+28988|Real de San Jorge|Villa de �lvarez|Ciudad de Villa de �lvarez
+28988|Campestre|Villa de �lvarez|Ciudad de Villa de �lvarez
+28988|El Llano|Villa de �lvarez|Ciudad de Villa de �lvarez
+28989|Montellano|Villa de �lvarez|Ciudad de Villa de �lvarez
+28989|Ciudad Natura|Villa de �lvarez|Ciudad de Villa de �lvarez
+28989|Montellano II|Villa de �lvarez|Ciudad de Villa de �lvarez
+28989|Acueducto Residencial|Villa de �lvarez|Ciudad de Villa de �lvarez
+28989|Micro Parque Industrial|Villa de �lvarez|Ciudad de Villa de �lvarez
+28989|Bur�cratas del Estado|Villa de �lvarez|Ciudad de Villa de �lvarez
+28989|Las Tunas|Villa de �lvarez|Ciudad de Villa de �lvarez
+28989|Leandro Valle|Villa de �lvarez|Ciudad de Villa de �lvarez
+28989|Prados de La Villa|Villa de �lvarez|Ciudad de Villa de �lvarez
+28989|Villa de Alba|Villa de �lvarez|Ciudad de Villa de �lvarez
+28989|Jardines del Llano|Villa de �lvarez|Ciudad de Villa de �lvarez
+28989|Campestre Bugambilias|Villa de �lvarez|Ciudad de Villa de �lvarez
+28989|Real de Minas|Villa de �lvarez|Ciudad de Villa de �lvarez
+28989|La Comarca|Villa de �lvarez|Ciudad de Villa de �lvarez
