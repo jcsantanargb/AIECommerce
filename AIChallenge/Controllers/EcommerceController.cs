@@ -37,6 +37,14 @@ public sealed class EcommerceController : ControllerBase
         return Ok(products);
     }
 
+    [HttpGet("address-catalog/{postalCode}", Name = "ListAddressesByPostalCode")]
+    [ProducesResponseType<IReadOnlyList<Address>>(StatusCodes.Status200OK)]
+    public async Task<IActionResult> ListAddressesByPostalCodeAsync(string postalCode, CancellationToken cancellationToken)
+    {
+        IReadOnlyList<Address> addresses = await _service.ListAddressesByPostalCodeAsync(postalCode, cancellationToken);
+        return Ok(addresses);
+    }
+
     [HttpPost("orders", Name = "CreateOrder")]
     public async Task<IActionResult> CreateOrderAsync(CreateOrderRequest request, CancellationToken cancellationToken)
     {

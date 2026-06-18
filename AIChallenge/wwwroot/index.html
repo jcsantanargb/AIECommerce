@@ -37,8 +37,13 @@
 
         <h3>Domicilio</h3>
         <div class="field"><label>Calle y numero</label><input name="streetAndNumber" required></div>
-        <div class="field"><label>Colonia</label><input name="neighborhood" required></div>
-        <div class="field"><label>C.P.</label><input name="postalCode" required></div>
+        <div class="field"><label>C.P.</label><input name="postalCode" maxlength="5" required></div>
+        <div class="field">
+          <label>Colonia</label>
+          <input name="neighborhood" list="neighborhoodOptions" required>
+          <datalist id="neighborhoodOptions"></datalist>
+          <small id="postalCodeHint"></small>
+        </div>
         <div class="field"><label>Municipio</label><input name="municipality" required></div>
         <div class="field"><label>Estado</label><input name="state" required></div>
 

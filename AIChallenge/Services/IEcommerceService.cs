@@ -10,6 +10,8 @@ public interface IEcommerceService
 
     Task<IReadOnlyList<Product>> ListProductsAsync(CancellationToken cancellationToken = default);
 
+    Task<IReadOnlyList<Address>> ListAddressesByPostalCodeAsync(string postalCode, CancellationToken cancellationToken = default);
+
     Task<ApiResult<PurchaseOrder>> CreateOrderAsync(CreateOrderRequest request, CancellationToken cancellationToken = default);
 
     Task<ApiResult<PurchaseOrder>> GetOrderAsync(string orderId, CancellationToken cancellationToken = default);
