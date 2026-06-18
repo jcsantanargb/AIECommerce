@@ -54,7 +54,18 @@ public sealed class JsonEcommerceRepository : IEcommerceRepository
         await EnsureSeededAsync(cancellationToken);
         string json = await File.ReadAllTextAsync(_filePath, cancellationToken);
         AppData data = JsonSerializer.Deserialize<AppData>(json, JsonOptions) ?? SeedData.Create();
+        bool changed = false;
         if (SeedData.EnsureProducts(data))
+        {
+            changed = true;
+        }
+
+        if (SeedData.EnsureAddressCatalog(data))
+        {
+            changed = true;
+        }
+
+        if (changed)
         {
             string updatedJson = JsonSerializer.Serialize(data, JsonOptions);
             await File.WriteAllTextAsync(_filePath, updatedJson, cancellationToken);

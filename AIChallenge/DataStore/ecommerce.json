@@ -58,5 +58,35 @@
       ]
     }
   ],
+  "addressCatalog": [
+    {
+      "streetAndNumber": "",
+      "neighborhood": "Hipódromo",
+      "postalCode": "06100",
+      "municipality": "Cuauhtémoc",
+      "state": "Ciudad de México"
+    },
+    {
+      "streetAndNumber": "",
+      "neighborhood": "Roma Norte",
+      "postalCode": "06700",
+      "municipality": "Cuauhtémoc",
+      "state": "Ciudad de México"
+    },
+    {
+      "streetAndNumber": "",
+      "neighborhood": "Del Valle Centro",
+      "postalCode": "03100",
+      "municipality": "Benito Juárez",
+      "state": "Ciudad de México"
+    },
+    {
+      "streetAndNumber": "",
+      "neighborhood": "Lomas de Chapultepec",
+      "postalCode": "11000",
+      "municipality": "Miguel Hidalgo",
+      "state": "Ciudad de México"
+    }
+  ],
   "orders": []
 }

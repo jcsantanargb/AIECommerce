@@ -8,5 +8,7 @@ public sealed class AppData
 
     public List<Product> Products { get; set; } = [];
 
+    public List<Address> AddressCatalog { get; set; } = [];
+
     public List<PurchaseOrder> Orders { get; set; } = [];
 }

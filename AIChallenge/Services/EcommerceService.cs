@@ -39,7 +39,7 @@ public sealed class EcommerceService : IEcommerceService
             return ApiResult<Customer>.Fail(ErrorCodes.UnderAge, "The customer must be at least 18 years old.");
         }
 
-        if (!Validators.IsKnownAddress(request.Address))
+        if (!Validators.IsKnownAddress(request.Address, data.AddressCatalog))
         {
             return ApiResult<Customer>.Fail(ErrorCodes.InvalidAddress, "The neighborhood, postal code, municipality, and state combination is not supported.");
         }

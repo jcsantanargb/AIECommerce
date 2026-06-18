@@ -1,0 +1,4 @@
+06100|Hipódromo|Cuauhtémoc|Ciudad de México
+06700|Roma Norte|Cuauhtémoc|Ciudad de México
+03100|Del Valle Centro|Benito Juárez|Ciudad de México
+11000|Lomas de Chapultepec|Miguel Hidalgo|Ciudad de México

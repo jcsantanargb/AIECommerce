@@ -1,4 +1,5 @@
 using System.Globalization;
+using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -8,13 +9,7 @@ namespace AIChallenge.Services;
 
 public static partial class Validators
 {
-    private static readonly Dictionary<string, AddressCatalogEntry> AddressCatalog = new(StringComparer.OrdinalIgnoreCase)
-    {
-        ["06100|Hipódromo|Cuauhtémoc|Ciudad de México"] = new("06100", "Hipódromo", "Cuauhtémoc", "Ciudad de México"),
-        ["06700|Roma Norte|Cuauhtémoc|Ciudad de México"] = new("06700", "Roma Norte", "Cuauhtémoc", "Ciudad de México"),
-        ["03100|Del Valle Centro|Benito Juárez|Ciudad de México"] = new("03100", "Del Valle Centro", "Benito Juárez", "Ciudad de México"),
-        ["11000|Lomas de Chapultepec|Miguel Hidalgo|Ciudad de México"] = new("11000", "Lomas de Chapultepec", "Miguel Hidalgo", "Ciudad de México")
-    };
+    private static readonly Dictionary<string, AddressCatalogEntry> AddressCatalog = LoadAddressCatalog();
 
     public static bool IsValidCurp(string curp)
     {
@@ -36,6 +31,15 @@ public static partial class Validators
     {
         string key = $"{address.PostalCode}|{address.Neighborhood}|{address.Municipality}|{address.State}";
         return AddressCatalog.ContainsKey(key);
+    }
+
+    public static bool IsKnownAddress(Address address, IReadOnlyList<Address> addressCatalog)
+    {
+        return addressCatalog.Any(candidate =>
+            string.Equals(candidate.PostalCode, address.PostalCode, StringComparison.OrdinalIgnoreCase) &&
+            string.Equals(candidate.Neighborhood, address.Neighborhood, StringComparison.OrdinalIgnoreCase) &&
+            string.Equals(candidate.Municipality, address.Municipality, StringComparison.OrdinalIgnoreCase) &&
+            string.Equals(candidate.State, address.State, StringComparison.OrdinalIgnoreCase));
     }
 
     public static bool IsValidCardNumber(string cardNumber)
@@ -129,4 +133,43 @@ public static partial class Validators
     private static partial Regex CurpRegex();
 
     private sealed record AddressCatalogEntry(string PostalCode, string Neighborhood, string Municipality, string State);
+
+    private static Dictionary<string, AddressCatalogEntry> LoadAddressCatalog()
+    {
+        Dictionary<string, AddressCatalogEntry> catalog = new(StringComparer.OrdinalIgnoreCase);
+        string dataFile = Path.Combine(AppContext.BaseDirectory, "Data", "address-catalog.txt");
+
+        if (!File.Exists(dataFile))
+        {
+            catalog["06100|Hipódromo|Cuauhtémoc|Ciudad de México"] = new("06100", "Hipódromo", "Cuauhtémoc", "Ciudad de México");
+            catalog["06700|Roma Norte|Cuauhtémoc|Ciudad de México"] = new("06700", "Roma Norte", "Cuauhtémoc", "Ciudad de México");
+            catalog["03100|Del Valle Centro|Benito Juárez|Ciudad de México"] = new("03100", "Del Valle Centro", "Benito Juárez", "Ciudad de México");
+            catalog["11000|Lomas de Chapultepec|Miguel Hidalgo|Ciudad de México"] = new("11000", "Lomas de Chapultepec", "Miguel Hidalgo", "Ciudad de México");
+            return catalog;
+        }
+
+        foreach (string line in File.ReadAllLines(dataFile))
+        {
+            if (string.IsNullOrWhiteSpace(line))
+            {
+                continue;
+            }
+
+            string[] parts = line.Split('|');
+            if (parts.Length != 4)
+            {
+                continue;
+            }
+
+            string postalCode = parts[0].Trim();
+            string neighborhood = parts[1].Trim();
+            string municipality = parts[2].Trim();
+            string state = parts[3].Trim();
+            string key = $"{postalCode}|{neighborhood}|{municipality}|{state}";
+
+            catalog[key] = new(postalCode, neighborhood, municipality, state);
+        }
+
+        return catalog;
+    }
 }

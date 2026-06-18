@@ -8,7 +8,8 @@ public static class SeedData
     {
         return new AppData
         {
-            Products = CreateProducts()
+            Products = CreateProducts(),
+            AddressCatalog = CreateAddressCatalog()
         };
     }
 
@@ -23,6 +24,27 @@ public static class SeedData
             }
 
             data.Products.Add(product);
+            added = true;
+        }
+
+        return added;
+    }
+
+    public static bool EnsureAddressCatalog(AppData data)
+    {
+        bool added = false;
+        foreach (Address address in CreateAddressCatalog())
+        {
+            if (data.AddressCatalog.Any(existing =>
+                string.Equals(existing.PostalCode, address.PostalCode, StringComparison.OrdinalIgnoreCase) &&
+                string.Equals(existing.Neighborhood, address.Neighborhood, StringComparison.OrdinalIgnoreCase) &&
+                string.Equals(existing.Municipality, address.Municipality, StringComparison.OrdinalIgnoreCase) &&
+                string.Equals(existing.State, address.State, StringComparison.OrdinalIgnoreCase)))
+            {
+                continue;
+            }
+
+            data.AddressCatalog.Add(address);
             added = true;
         }
 
@@ -53,6 +75,17 @@ public static class SeedData
                 "Audífonos con micrófono",
                 699.00m,
                 ["Cancelación pasiva", "Cable USB-C", "Controles integrados"])
+        ];
+    }
+
+    private static List<Address> CreateAddressCatalog()
+    {
+        return
+        [
+            new Address(string.Empty, "Hipódromo", "06100", "Cuauhtémoc", "Ciudad de México"),
+            new Address(string.Empty, "Roma Norte", "06700", "Cuauhtémoc", "Ciudad de México"),
+            new Address(string.Empty, "Del Valle Centro", "03100", "Benito Juárez", "Ciudad de México"),
+            new Address(string.Empty, "Lomas de Chapultepec", "11000", "Miguel Hidalgo", "Ciudad de México")
         ];
     }
 }
