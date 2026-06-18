@@ -13,6 +13,12 @@ const paymentMethodForm = document.getElementById("paymentMethodForm");
 const createOrderForm = document.getElementById("createOrderForm");
 const getOrderForm = document.getElementById("getOrderForm");
 const customerOrdersForm = document.getElementById("customerOrdersForm");
+const neighborhoodOptions = document.getElementById("neighborhoodOptions");
+const postalCodeHint = document.getElementById("postalCodeHint");
+const postalCodeInput = customerForm.querySelector("input[name='postalCode']");
+const neighborhoodInput = customerForm.querySelector("input[name='neighborhood']");
+const municipalityInput = customerForm.querySelector("input[name='municipality']");
+const stateInput = customerForm.querySelector("input[name='state']");
 
 const STORAGE_KEY = "aiChallengeBaseUrl";
 
@@ -45,6 +51,7 @@ async function callApi(path, options = {}) {
   const url = `${getBaseUrl()}${path}`;
   const method = options.method || "GET";
   const hasBody = options.body !== undefined;
+  const silent = options.silent === true;
 
   try {
     const response = await fetch(url, {
@@ -67,11 +74,75 @@ async function callApi(path, options = {}) {
       }
     }
 
-    renderResponse(`${method} ${path}`, response.status, data || "(sin contenido)", response.ok);
+    if (!silent) {
+      renderResponse(`${method} ${path}`, response.status, data || "(sin contenido)", response.ok);
+    }
+
     return data;
   } catch (error) {
-    renderResponse(`${method} ${path}`, "ERROR", error.message || "Error de red", false);
+    if (!silent) {
+      renderResponse(`${method} ${path}`, "ERROR", error.message || "Error de red", false);
+    }
+
     throw error;
+  }
+}
+
+function updateNeighborhoodOptions(addresses) {
+  neighborhoodOptions.innerHTML = "";
+  addresses.forEach((address) => {
+    const option = document.createElement("option");
+    option.value = address.neighborhood || "";
+    neighborhoodOptions.appendChild(option);
+  });
+}
+
+function fillAddressFields(addresses) {
+  if (addresses.length === 0) {
+    updateNeighborhoodOptions([]);
+    postalCodeHint.textContent = "No hay coincidencias para ese codigo postal.";
+    return;
+  }
+
+  updateNeighborhoodOptions(addresses);
+  const first = addresses[0];
+  municipalityInput.value = first.municipality || municipalityInput.value;
+  stateInput.value = first.state || stateInput.value;
+
+  const hasCurrentNeighborhood = addresses.some(
+    (address) => String(address.neighborhood || "").toLowerCase() === neighborhoodInput.value.toLowerCase()
+  );
+
+  if (!hasCurrentNeighborhood) {
+    neighborhoodInput.value = first.neighborhood || "";
+  }
+
+  postalCodeHint.textContent =
+    addresses.length === 1
+      ? "Direccion sugerida cargada automaticamente."
+      : `Se encontraron ${addresses.length} colonias para este C.P.`;
+}
+
+let postalLookupTimer = null;
+
+async function lookupAddressByPostalCode() {
+  const postalCode = postalCodeInput.value.trim();
+  if (!/^\d{5}$/.test(postalCode)) {
+    updateNeighborhoodOptions([]);
+    postalCodeHint.textContent = "Ingresa un codigo postal de 5 digitos.";
+    return;
+  }
+
+  try {
+    const data = await callApi(`/api/address-catalog/${encodeURIComponent(postalCode)}`, { silent: true });
+    if (Array.isArray(data)) {
+      fillAddressFields(data);
+      return;
+    }
+
+    fillAddressFields([]);
+  } catch {
+    postalCodeHint.textContent = "No se pudo consultar el catalogo de direcciones.";
   }
 }
 
@@ -123,6 +194,20 @@ clearResponseBtn.addEventListener("click", () => {
 
 addItemBtn.addEventListener("click", () => {
   createOrderItemRow();
+});
+
+postalCodeInput.addEventListener("input", () => {
+  if (postalLookupTimer) {
+    window.clearTimeout(postalLookupTimer);
+  }
+
+  postalLookupTimer = window.setTimeout(() => {
+    lookupAddressByPostalCode();
+  }, 300);
+});
+
+postalCodeInput.addEventListener("blur", () => {
+  lookupAddressByPostalCode();
 });
 
 checkApiBtn.addEventListener("click", async () => {

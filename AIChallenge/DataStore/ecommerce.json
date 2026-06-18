@@ -27,6 +27,20 @@
         "state": "Ciudad de M\u00E9xico"
       },
       "createdAt": "2026-06-18T18:17:30.2310584+00:00"
+    },
+    {
+      "id": "CUS-A6FB42ACB10A",
+      "fullName": "Test15",
+      "curp": "SARJ930910HDFNZL04",
+      "birthDate": "2004-01-18",
+      "address": {
+        "streetAndNumber": "Test321",
+        "neighborhood": "Hip\u00F3dromo",
+        "postalCode": "06100",
+        "municipality": "Cuauht\u00E9moc",
+        "state": "Ciudad de M\u00E9xico"
+      },
+      "createdAt": "2026-06-18T18:43:13.745264+00:00"
     }
   ],
   "paymentMethods": [
@@ -86,31 +100,31 @@
   "addressCatalog": [
     {
       "streetAndNumber": "",
-      "neighborhood": "Hipódromo",
+      "neighborhood": "Hip\u00F3dromo",
       "postalCode": "06100",
-      "municipality": "Cuauhtémoc",
-      "state": "Ciudad de México"
+      "municipality": "Cuauht\u00E9moc",
+      "state": "Ciudad de M\u00E9xico"
     },
     {
       "streetAndNumber": "",
       "neighborhood": "Roma Norte",
       "postalCode": "06700",
-      "municipality": "Cuauhtémoc",
-      "state": "Ciudad de México"
+      "municipality": "Cuauht\u00E9moc",
+      "state": "Ciudad de M\u00E9xico"
     },
     {
       "streetAndNumber": "",
       "neighborhood": "Del Valle Centro",
       "postalCode": "03100",
-      "municipality": "Benito Juárez",
-      "state": "Ciudad de México"
+      "municipality": "Benito Ju\u00E1rez",
+      "state": "Ciudad de M\u00E9xico"
     },
     {
       "streetAndNumber": "",
       "neighborhood": "Lomas de Chapultepec",
       "postalCode": "11000",
       "municipality": "Miguel Hidalgo",
-      "state": "Ciudad de México"
+      "state": "Ciudad de M\u00E9xico"
     }
   ],
   "orders": [

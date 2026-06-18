@@ -112,6 +112,17 @@ public sealed class EcommerceService : IEcommerceService
         return data.Products;
     }
 
+    public async Task<IReadOnlyList<Address>> ListAddressesByPostalCodeAsync(string postalCode, CancellationToken cancellationToken = default)
+    {
+        AppData data = await _repository.ReadAsync(cancellationToken);
+        return data.AddressCatalog
+            .Where(address => string.Equals(address.PostalCode, postalCode, StringComparison.OrdinalIgnoreCase))
+            .GroupBy(address => $"{address.Neighborhood}|{address.Municipality}|{address.State}", StringComparer.OrdinalIgnoreCase)
+            .Select(group => group.First())
+            .OrderBy(address => address.Neighborhood)
+            .ToList();
+    }
+
     public async Task<ApiResult<PurchaseOrder>> CreateOrderAsync(CreateOrderRequest request, CancellationToken cancellationToken = default)
     {
         AppData data = await _repository.ReadAsync(cancellationToken);
